@@ -1,4 +1,4 @@
-# VPC_exercise
+# VPC_Peering
 
 #Objective
 Connecting VPCs: Allow communication between applications hosted in different VPCs by using VPC peering. The Marketing and Developer EC2 instances need to access the Financial Services server in the Finance department’s VPC.
