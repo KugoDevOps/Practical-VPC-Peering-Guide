@@ -46,9 +46,10 @@ A peering connection is needed to establish communication between VPCs. **A VPC 
 
 <a href="https://imgur.com/0bQ1G5R"><img src="https://i.imgur.com/0bQ1G5R.png" title="source: imgur.com" /></a>
 
+
 <a href="https://imgur.com/wcIGjg7"><img src="https://i.imgur.com/wcIGjg7.gif" title="source: imgur.com" /></a>
 
-After establishing a peering connection, the route table must be modified to show the association in the VPCs. A route must be added into each route table to allow traffic between the peered VPCs. 
+After establishing a peering connection, the route table must be modified to show the association in the VPCs. A route must be added to each route table to allow traffic between the peered VPCs. 
 
 **Marketing EC2 Instance Route**:
 <a href="https://imgur.com/4QBNG5n"><img src="https://i.imgur.com/4QBNG5n.gif" title="source: imgur.com" /></a>
@@ -59,7 +60,7 @@ After establishing a peering connection, the route table must be modified to sho
 The Marketing EC2 instance is connected via the Session Manager. From the **session manager**, the Marketing Instance tries to connect to the FinanceServer Instance but the connection fails again. 
 <a href="https://imgur.com/4dpX0XM"><img src="https://i.imgur.com/4dpX0XM.gif" title="source: imgur.com" /></a>
 
-Peered VPCs do not authomatically accept all data between them. Security features such as network ACLs and Security Groups still apply restrictions and access to the VPC. 	
+Peered VPCs do not automatically accept all data between them. Security features such as network ACLs and Security Groups still apply restrictions and access to the VPC. 	
 After modifying the security group rule: 
 <a href="https://imgur.com/JdS3OQa"><img src="https://i.imgur.com/JdS3OQa.gif" title="source: imgur.com" /></a>
 
